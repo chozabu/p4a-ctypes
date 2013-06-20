@@ -610,7 +610,7 @@ function run_distribute() {
 
 	# we are sure that all of theses will be never used on android (well...)
 	try rm -rf test
-	try rm -rf ctypes
+#	try rm -rf ctypes
 	try rm -rf lib2to3
 	try rm -rf lib-tk
 	try rm -rf idlelib
@@ -622,7 +622,7 @@ function run_distribute() {
 	try rm -rf config/libpython*.a
 	try rm -rf config/python.o
 	try rm -rf curses
-	try rm -rf lib-dynload/_ctypes_test.so
+#	try rm -rf lib-dynload/_ctypes_test.so
 	try rm -rf lib-dynload/_testcapi.so
 
 	debug "Strip libraries"

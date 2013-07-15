@@ -1,0 +1,2 @@
+cd ~/Bureau/dev/Projects/kivy/dist/default/
+./build.py --package fr.mgdesign.logger --name "MG TCP Logger" --version 1.0 --dir ../../mgdesign/testlogger debug installd

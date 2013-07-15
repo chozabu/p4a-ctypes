@@ -2,7 +2,7 @@
 *.egg-info
 
 # unit test
-unittest/*
+#unittest/*
 
 # python config
 config/makesetup

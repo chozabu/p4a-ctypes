@@ -609,21 +609,21 @@ function run_distribute() {
 	try find . | grep -E '*\.(py|pyc|so\.o|so\.a|so\.libs)$' | xargs rm
 
 	# we are sure that all of theses will be never used on android (well...)
-	try rm -rf test
+#	try rm -rf test
 #	try rm -rf ctypes
 	try rm -rf lib2to3
 	try rm -rf lib-tk
 	try rm -rf idlelib
-	try rm -rf unittest/test
-	try rm -rf json/tests
-	try rm -rf distutils/tests
-	try rm -rf email/test
-	try rm -rf bsddb/test
+#	try rm -rf unittest/test
+#	try rm -rf json/tests
+#	try rm -rf distutils/tests
+#	try rm -rf email/test
+#	try rm -rf bsddb/test
 	try rm -rf config/libpython*.a
 	try rm -rf config/python.o
 	try rm -rf curses
 #	try rm -rf lib-dynload/_ctypes_test.so
-	try rm -rf lib-dynload/_testcapi.so
+#	try rm -rf lib-dynload/_testcapi.so
 
 	debug "Strip libraries"
 	push_arm

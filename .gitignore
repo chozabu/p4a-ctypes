@@ -8,6 +8,7 @@ src/default.properties
 src/libs/armeabi
 dist
 *.pyc
+*.pyo
 testsuite
 .packages
 

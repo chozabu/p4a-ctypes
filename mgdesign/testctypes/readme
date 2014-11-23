@@ -1,0 +1,2 @@
+cd ~/Bureau/dev/Projects/kivy/dist/default/
+./build.py --package fr.mgdesign.ctypesworld --name "MG CTypes world" --version 1.0 --dir ../../mgdesign/testctypes debug installd

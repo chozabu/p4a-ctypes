@@ -1,0 +1,2 @@
+cd ~/Bureau/dev/Projects/kivy/dist/default/
+./build.py --package fr.mgdesign.tests --name "MG Pytests" --version 1.0 --dir ../../mgdesign/tests debug installd
